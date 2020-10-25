@@ -147,9 +147,10 @@ article h2{
 }
 @media screen and (orientation:portrait)
 {
-body
+html
 {
-    width: 380pt;
+    height: 700pt;
+    width: 400pt;
 }
 main nav
 {
