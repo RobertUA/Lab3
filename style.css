@@ -9,7 +9,7 @@ nav {
     background-color: #333;
     overflow: hidden;
 }
-article header{
+article h2{
     margin: 0%;
     display: inherit;
     font-size: 20pt;
@@ -26,7 +26,7 @@ article p{
     height: 80pt;
     overflow: auto;
 }
-main section{
+main .tovari{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -77,8 +77,6 @@ main nav {
     margin-right: 2pt;
 }
 main nav a {
-
-    min-height: 2em;
     font-size: 16pt;
     color: black;
     width: 100%;
@@ -109,13 +107,16 @@ body{
 @media screen and (max-width: 1280px) 
 {
     
+main nav a {
+    font-size: 12pt;
+}
 article p{
     font-size: 10pt;
     text-align: center;
     margin: 0%;
     height: 50pt;
 }
-main section{
+main .tovari{
     background-color: white;
     width: 89%;
     float: right;
@@ -139,9 +140,8 @@ nav a {
     font-size: 12px;
     padding: 8px 3px;
 }
-article header{
+article h2{
     font-size: 14pt;
-    text-align: center;
     height: 15pt;
 }
 
