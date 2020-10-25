@@ -6,21 +6,20 @@
   <meta charset="utf-8"/> 
   <title>Лаба3</title>
 </head>
-<body>
+<body onhashchange="hashchanged()"">
   <img src= "img/whata.png" id="FX" alt="whata?">
   <nav style="position: sticky; top: 0">
-    <a>Домой</a>
-    <a>Новости</a>
-    <a>Контакты</a>
+    <a href="#catalog">Каталог</a>
+    <a href="#contacts">Контакты</a>
     <a>О нас</a>
   </nav>
-  <main>
+  <main id="main">
     <nav>
       <a>Тєліки</a>
       <a>Мобіли</a>
       <a>Будки суіцида</a>
     </nav>
-    <div class="tovari">
+    <div class="tovari" id="tv">
       <article>
         <img src= "img/ussenterprise.jpg" alt="tovar" title="Фото товару">
         <h2>Товар</h2>
@@ -97,8 +96,7 @@
     <nav style="color: yellowgreen;">
       <div>Подвальчік ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла-ла</div>
       <a>Домой</a>
-      <a>Новости</a>
-      <a>Контакты</a>
+      <a href="#contacts">Контакты</a>
       <a>О нас</a>
     </nav>
   </footer>
