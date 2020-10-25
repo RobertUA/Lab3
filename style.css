@@ -57,6 +57,15 @@ article {
     background-color: white;
     overflow: hidden;
 }
+#FX
+{
+    position: fixed;
+    width: 50pt;
+    height: 50pt;
+    right: 3%;
+    bottom: 8%;
+    cursor: pointer;
+}
 main nav {
     
     display: flex;
