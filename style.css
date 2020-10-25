@@ -1,3 +1,6 @@
+body{
+    min-width: 180pt;
+}
 main
 {
     display: flex;
@@ -27,14 +30,15 @@ article p{
     overflow: auto;
 }
 main .tovari{
+    overflow: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
     background-color: white;
     width: 89%;
-    float: right;
     height: 720pt;
+    min-width: 111pt;
     margin-left: 0.1%;
 }
 article img{
@@ -60,21 +64,22 @@ article {
 #FX
 {
     position: fixed;
-    width: 50pt;
-    height: 50pt;
-    right: 3%;
-    bottom: 8%;
+    width: 40pt;
+    height: 40pt;
+    right: 1.5%;
+    bottom: 11%;
     cursor: pointer;
 }
 main nav {
-    
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     height: 700pt;
     background-color: white;
     overflow: auto;
-    width: 10%;
+    width: 100pt;
     margin-right: 2pt;
+    min-width: 35pt;
 }
 main nav a {
     font-size: 16pt;
@@ -119,8 +124,6 @@ article p{
 main .tovari{
     background-color: white;
     width: 89%;
-    float: right;
-    height: 500pt;
 }
 article img{
     margin-top: 3pt;
