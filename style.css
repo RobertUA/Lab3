@@ -38,7 +38,7 @@ main .tovari{
     align-content: flex-start;
     background-color: white;
     width: 89%;
-    height: 720pt;
+    height: 920pt;
     min-width: 111pt;
     margin-left: 0.1%;
 }
@@ -46,6 +46,7 @@ article img{
     margin-top: 0pt;
     height: 83pt;
     width: 150pt;
+    cursor: pointer;
 }
 article {
     display: grid;
@@ -67,7 +68,7 @@ article {
     position: fixed;
     width: 40pt;
     height: 40pt;
-    right: 1.5%;
+    right: 2%;
     bottom: 11%;
     cursor: pointer;
 }
@@ -75,7 +76,7 @@ main nav {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 700pt;
+    height: 900pt;
     background-color: white;
     overflow: auto;
     width: 100pt;
