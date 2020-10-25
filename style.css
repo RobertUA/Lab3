@@ -109,7 +109,6 @@ nav a:hover {
 }
 @media screen and (max-width: 1280px) 
 {
-    
 main nav a {
     font-size: 12pt;
 }
@@ -137,7 +136,7 @@ article {
     width: 90pt;
 }
 nav a {
-    font-size: 12px;
+    font-size: 12pt;
     padding: 8px 3px;
 }
 article h2{
@@ -152,6 +151,11 @@ html
 {
     height: 700pt;
     width: 400pt;
+}
+
+nav a {
+    font-size: 20pt;
+    padding: 8px 3px;
 }
 main nav
 {
