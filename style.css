@@ -38,9 +38,9 @@ main .tovari{
     margin-left: 0.1%;
 }
 article img{
-    margin-top: 5pt;
-    margin-right: 1%;
+    margin-top: 0pt;
     height: 83pt;
+    width: 150pt;
 }
 article {
     display: grid;
@@ -121,12 +121,12 @@ main .tovari{
     width: 89%;
     float: right;
     height: 500pt;
-    margin-left: 0.1%;
 }
 article img{
     margin-top: 3pt;
     margin-right: 1%;
     height: 50pt;
+    width: 91pt;
 }
 article {
     border: 3px solid transparent;
