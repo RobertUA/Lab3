@@ -1,5 +1,6 @@
 body{
     min-width: 180pt;
+    background-color: #333;
 }
 main
 {
@@ -105,10 +106,6 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
-body{
-    background-color: #333;
-}
-
 @media screen and (max-width: 1280px) 
 {
     
@@ -126,8 +123,7 @@ main .tovari{
     width: 89%;
 }
 article img{
-    margin-top: 3pt;
-    margin-right: 1%;
+
     height: 50pt;
     width: 91pt;
 }
@@ -148,4 +144,18 @@ article h2{
     height: 15pt;
 }
 
+}
+@media screen and (orientation:portrait)
+{
+body
+{
+    width: 380pt;
+}
+main nav
+{
+    width: 65pt;
+}
+main nav a {
+    font-size: 16pt;
+}
 }
